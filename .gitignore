@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+*.pyc
+
+# Runtime data
+pids
+*.pid
+*.seed
+uploads
+
+# Ignore built ts files
+dist/**/*
+build/**/*
+
+# Dependency directory
+node_modules
+bower_components
+jspm_packages
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Editors
+.vscode/*
+.classpath
+.project
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+
+# API keys and secrets
+.env
+
+package-lock.json
+yarn.lock
