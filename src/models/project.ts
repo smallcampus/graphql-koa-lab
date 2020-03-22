@@ -6,6 +6,9 @@ import { Types } from 'mongoose'
 export class ProjectInput {
   @Field()
   name: string
+
+  @Field()
+  description: string
 }
 
 @ObjectType()

@@ -23,6 +23,7 @@ type Project {
 
 input ProjectInput {
   name: String!
+  description: String!
 }
 
 type Query {
