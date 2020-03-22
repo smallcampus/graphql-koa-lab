@@ -9,8 +9,8 @@ The javascript `Date` as string. Type represents date and time as the ISO Date s
 scalar DateTime
 
 type Mutation {
-  createProject(project: ProjectInput!): Project!
-  updateProject(project: ProjectInput!, id: String!): Project!
+  createProject(input: ProjectInput!): Project!
+  updateProject(input: ProjectInput!, id: String!): Project!
   deleteProject(id: String!): Boolean!
 }
 

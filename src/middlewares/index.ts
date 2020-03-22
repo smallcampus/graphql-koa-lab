@@ -13,7 +13,7 @@ export default async function middleware() {
     handleErrors(),
     auth(),
     bodyParser(),
-    mongo(),
+    // mongo(),
     await graphql(),
   ])
 }
